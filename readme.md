@@ -26,18 +26,18 @@
 
 ```python
 class AnujPandey:
-    name        = "Anuj Pandey"
-    degree      = "B.Tech — Computer Science & Engineering"
+    name           = "Anuj Pandey"
+    degree         = "B.Tech — Computer Science & Engineering"
     specialization = "Data Science"
-    university  = "Currently Enrolled"
-    goal        = "Software Developer with in-depth knowledge"
+    college        = "GL Bajaj Institute of Technology and Management, Greater Noida"
+    goal           = "Software Developer with in-depth knowledge"
 
     timeline = {
         "2024–2025": "1st Year — Building Foundations",
-        "2025–2026": "2nd Year — Exploring Core CS + Data Science",   # ← You are here (from August 2025)
+        "2025–2026": "2nd Year — Exploring Core CS + Data Science",
         "2026–2027": "3rd Year — Projects, Internships & Real-World Experience",
         "2027–2028": "4th Year — Advanced Specialization & Placement Prep",
-        "2028+":     "Passout — Software Developer, Full Throttle 🚀"
+        "2028+":     "Passout — Software Developer, Full Throttle"
     }
 
     currently_exploring = [
@@ -60,7 +60,7 @@ class AnujPandey:
 | Year | Period | Phase | Status |
 |------|--------|-------|--------|
 | <img src="https://img.shields.io/badge/Year%201-2024--2025-4a90d9?style=flat-square"/> | 2024 – 2025 | Foundation & Discovery | `Completed` |
-| <img src="https://img.shields.io/badge/Year%202-2025--2026-7b8cde?style=flat-square"/> | Aug 2025 – 2026 | Core CS + Data Science Concepts | `In Progress` ← |
+| <img src="https://img.shields.io/badge/Year%202-2025--2026-7b8cde?style=flat-square"/> | Aug 2025 – 2026 | Core CS + Data Science Concepts | `In Progress` |
 | <img src="https://img.shields.io/badge/Year%203-2026--2027-9b6dde?style=flat-square"/> | 2026 – 2027 | Projects, Internships & Depth | `Upcoming` |
 | <img src="https://img.shields.io/badge/Year%204-2027--2028-c45ae3?style=flat-square"/> | 2027 – 2028 | Mastery, Leadership & Placement | `Upcoming` |
 | <img src="https://img.shields.io/badge/Passout-2028+-ff6b9d?style=flat-square"/> | 2028+ | Software Developer — Full Career | `The Goal` |
@@ -141,7 +141,7 @@ name: Update Academic Year Badge
 
 on:
   schedule:
-    - cron: '0 0 1 8 *'   
+    - cron: '0 0 1 8 *'
   workflow_dispatch:
 
 jobs:
@@ -154,7 +154,6 @@ jobs:
         run: |
           CURRENT_YEAR=$(date +%Y)
           echo "Academic year script running for $CURRENT_YEAR"
-          # You can extend this to sed-replace badge colors or status labels in README.md
 
       - name: Commit changes
         run: |
@@ -164,6 +163,8 @@ jobs:
           git diff --staged --quiet || git commit -m "chore: auto-update academic year badge"
           git push
 ```
+
+> This workflow runs every August 1st — exactly when your new academic year begins — so your README stays current without manual edits.
 
 ---
 
