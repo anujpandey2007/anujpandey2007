@@ -175,6 +175,10 @@ jobs:
 <a href="https://github.com/anujpandey2007">
   <img src="https://img.shields.io/badge/GitHub-anujpandey2007-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
+&nbsp;
+<a href="https://in.linkedin.com/in/anuj-pandey-5585093b8">
+  <img src="https://img.shields.io/badge/LinkedIn-Anuj%20Pandey-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
 
 </div>
 
