@@ -33,11 +33,11 @@ class AnujPandey:
     goal           = "Software Developer with in-depth knowledge"
 
     timeline = {
-        "2024–2025": "1st Year — Building Foundations",
-        "2025–2026": "2nd Year — Exploring Core CS + Data Science",
-        "2026–2027": "3rd Year — Projects, Internships & Real-World Experience",
-        "2027–2028": "4th Year — Advanced Specialization & Placement Prep",
-        "2028+":     "Passout — Software Developer, Full Throttle"
+        "2025–2026": "1st Year — Building Foundations",
+        "2026–2027": "2nd Year — Exploring Core CS + Data Science",
+        "2027–2028": "3rd Year — Projects, Internships & Real-World Experience",
+        "2028–2029": "4th Year — Advanced Specialization & Placement Prep",
+        "2029+":     "College Life Ended Here"
     }
 
     currently_exploring = [
