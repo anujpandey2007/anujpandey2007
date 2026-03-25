@@ -6,7 +6,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=800&color=7B8CDE&center=true&vCenter=true&multiline=false&width=600&lines=%22First%2C+solve+the+problem.+Then%2C+write+the+code.%22;%22Code+is+poetry+written+for+machines.%22;%22Every+expert+was+once+a+beginner.%22;%22Build+things+that+matter.%22)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=800&color=7B8CDE&center=true&vCenter=true&multiline=false&width=650&lines=First%2C+solve+the+problem.+Then%2C+write+the+code.;Code+is+poetry+written+for+machines.;Every+expert+was+once+a+beginner.;Build+things+that+matter.)](https://git.io/typing-svg)
 
 </div>
 
@@ -141,7 +141,7 @@ name: Update Academic Year Badge
 
 on:
   schedule:
-    - cron: '0 0 1 8 *'   # Runs on August 1st every year
+    - cron: '0 0 1 8 *'   
   workflow_dispatch:
 
 jobs:
@@ -164,8 +164,6 @@ jobs:
           git diff --staged --quiet || git commit -m "chore: auto-update academic year badge"
           git push
 ```
-
-> This workflow runs every August 1st — exactly when your new academic year begins — so your README stays current without manual edits.
 
 ---
 
