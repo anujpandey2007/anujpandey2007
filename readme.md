@@ -67,8 +67,6 @@ class AnujPandey:
 
 </div>
 
-> **Automation Note:** This timeline auto-highlights the current year. If you'd like this README to update dynamically, see the [GitHub Actions workflow](#automated-year-tracker) section below.
-
 ---
 
 ## Tech Stack
@@ -132,8 +130,6 @@ My goal is not just to build software — it is to understand it completely. Eve
 
 <a name="automated-year-tracker"></a>
 
-Want this README to automatically highlight your current academic year? Here's a simple GitHub Actions script you can add to your repo:
-
 **File:** `.github/workflows/update-year.yml`
 
 ```yaml
@@ -163,9 +159,6 @@ jobs:
           git diff --staged --quiet || git commit -m "chore: auto-update academic year badge"
           git push
 ```
-
-> This workflow runs every August 1st — exactly when your new academic year begins — so your README stays current without manual edits.
-
 ---
 
 ## Connect With Me
