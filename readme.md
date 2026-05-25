@@ -65,11 +65,11 @@ public record AnujPandey() {
 
 | Year | Period | Phase | Status |
 |------|--------|-------|--------|
-| <img src="https://img.shields.io/badge/Year%201-2024--2025-4a90d9?style=flat-square"/> | 2025 – 2026 | Foundation & Discovery | `Completed` |
-| <img src="https://img.shields.io/badge/Year%202-2025--2026-7b8cde?style=flat-square"/> | Aug 2026 – 2027 | Core CS + Data Science Concepts | `In Progress` |
-| <img src="https://img.shields.io/badge/Year%203-2026--2027-9b6dde?style=flat-square"/> | 2027 – 2028 | Projects, Internships & Depth | `Upcoming` |
-| <img src="https://img.shields.io/badge/Year%204-2027--2028-c45ae3?style=flat-square"/> | 2028 – 2029 | Mastery, Leadership & Placement | `Upcoming` |
-| <img src="https://img.shields.io/badge/Passout-2028+-ff6b9d?style=flat-square"/> | 2029+ | Software Developer — Full Career | `The Goal` |
+| <img src="https://img.shields.io/badge/Year%201-2025--2026-4a90d9?style=flat-square"/> | 2025 – 2026 | Foundation & Discovery | `Completed` |
+| <img src="https://img.shields.io/badge/Year%202-2026--2027-7b8cde?style=flat-square"/> | Aug 2026 – 2027 | Core CS + Data Science Concepts | `In Progress` |
+| <img src="https://img.shields.io/badge/Year%203-2027--2028-9b6dde?style=flat-square"/> | 2027 – 2028 | Projects, Internships & Depth | `Upcoming` |
+| <img src="https://img.shields.io/badge/Year%204-2028--2029-c45ae3?style=flat-square"/> | 2028 – 2029 | Mastery, Leadership & Placement | `Upcoming` |
+| <img src="https://img.shields.io/badge/Passout-2029+-ff6b9d?style=flat-square"/> | 2029+ | Software Developer — Full Career | `The Goal` |
 
 </div>
 
@@ -131,42 +131,6 @@ public record AnujPandey() {
 My goal is not just to build software — it is to understand it completely. Every language I learn, every algorithm I study, and every project I build is a step toward becoming a developer who can create systems that are elegant, efficient, and impactful.
 
 ---
-
-## Automated Year Tracker
-
-<a name="automated-year-tracker"></a>
-
-**File:** `.github/workflows/update-year.yml`
-
-```yaml
-name: Update Academic Year Badge
-
-on:
-  schedule:
-    - cron: '0 0 1 8 *'
-  workflow_dispatch:
-
-jobs:
-  update-readme:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-
-      - name: Update current year marker
-        run: |
-          CURRENT_YEAR=$(date +%Y)
-          echo "Academic year script running for $CURRENT_YEAR"
-
-      - name: Commit changes
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add README.md
-          git diff --staged --quiet || git commit -m "chore: auto-update academic year badge"
-          git push
-```
----
-
 ## Connect With Me
 
 <div align="center">
