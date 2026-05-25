@@ -24,31 +24,37 @@
 
 ## About Me
 
-```python
-class AnujPandey:
-    name           = "Anuj Pandey"
-    degree         = "B.Tech — Computer Science & Engineering"
-    specialization = "Data Science"
-    college        = "GL Bajaj Institute of Technology and Management, Greater Noida"
-    goal           = "Software Developer with in-depth knowledge"
+```java
+import java.util.List;
+import java.util.Map;
 
-    timeline = {
-        "2025–2026": "1st Year — Building Foundations",
-        "2026–2027": "2nd Year — Exploring Core CS + Data Science",
-        "2027–2028": "3rd Year — Projects, Internships & Real-World Experience",
-        "2028–2029": "4th Year — Advanced Specialization & Placement Prep",
-        "2029+":     "College Life Ended Here"
-    }
+public record AnujPandey() {
+    public static final String NAME = "Anuj Pandey";
+    public static final String DEGREE = "B.Tech — Computer Science & Engineering";
+    public static final String SPECIALIZATION = "Data Science";
+    public static final String COLLEGE = "GL Bajaj Institute of Technology and Management, Greater Noida";
+    public static final String GOAL = "Software Developer with in-depth knowledge";
 
-    currently_exploring = [
+    public static final Map<String, String> TIMELINE = Map.of(
+        "2025–2026", "1st Year — Building Foundations",
+        "2026–2027", "2nd Year — Exploring Core CS + Data Science",
+        "2027–2028", "3rd Year — Projects, Internships & Real-World Experience",
+        "2028–2029", "4th Year — Advanced Specialization & Placement Prep",
+        "2029+",      "College Life Ended Here"
+    );
+
+    public static final List<String> CURRENTLY_EXPLORING = List.of(
         "Programming Languages & their Paradigms",
         "Data Structures & Algorithms",
+         "Java For Backend Developement",
         "Python for Data Science",
         "Software Engineering Principles"
-    ]
+    );
 
-    def life_philosophy(self):
-        return "Write code that's not just correct — make it clean, scalable, and meaningful."
+    public String lifePhilosophy() {
+        return "Write code that's not just correct — make it clean, scalable, and meaningful.";
+    }
+}
 ```
 
 ---
@@ -59,11 +65,11 @@ class AnujPandey:
 
 | Year | Period | Phase | Status |
 |------|--------|-------|--------|
-| <img src="https://img.shields.io/badge/Year%201-2024--2025-4a90d9?style=flat-square"/> | 2024 – 2025 | Foundation & Discovery | `Completed` |
-| <img src="https://img.shields.io/badge/Year%202-2025--2026-7b8cde?style=flat-square"/> | Aug 2025 – 2026 | Core CS + Data Science Concepts | `In Progress` |
-| <img src="https://img.shields.io/badge/Year%203-2026--2027-9b6dde?style=flat-square"/> | 2026 – 2027 | Projects, Internships & Depth | `Upcoming` |
-| <img src="https://img.shields.io/badge/Year%204-2027--2028-c45ae3?style=flat-square"/> | 2027 – 2028 | Mastery, Leadership & Placement | `Upcoming` |
-| <img src="https://img.shields.io/badge/Passout-2028+-ff6b9d?style=flat-square"/> | 2028+ | Software Developer — Full Career | `The Goal` |
+| <img src="https://img.shields.io/badge/Year%201-2024--2025-4a90d9?style=flat-square"/> | 2025 – 2026 | Foundation & Discovery | `Completed` |
+| <img src="https://img.shields.io/badge/Year%202-2025--2026-7b8cde?style=flat-square"/> | Aug 2026 – 2027 | Core CS + Data Science Concepts | `In Progress` |
+| <img src="https://img.shields.io/badge/Year%203-2026--2027-9b6dde?style=flat-square"/> | 2027 – 2028 | Projects, Internships & Depth | `Upcoming` |
+| <img src="https://img.shields.io/badge/Year%204-2027--2028-c45ae3?style=flat-square"/> | 2028 – 2029 | Mastery, Leadership & Placement | `Upcoming` |
+| <img src="https://img.shields.io/badge/Passout-2028+-ff6b9d?style=flat-square"/> | 2029+ | Software Developer — Full Career | `The Goal` |
 
 </div>
 
